@@ -1,0 +1,81 @@
+/* 主题相关的一些变量，色值，字体 */
+@import "./themes/theme-default.css";
+@import "./themes/theme-dark.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button, button:focus, button:hover {
+    outline: none;
+  }
+}
+
+.btn {
+  @apply relative inline-block font-normal whitespace-nowrap text-center bg-none border border-solid border-transparent
+  shadow-btn-base cursor-pointer transition-all duration-300 select-none px-p20 py-p12 rounded-p4 ml-p10 text-p14 leading-p14;
+}
+
+.btn.btn-primary {
+  @apply bg-primary-btn text-primary-btn-text border-primary-btn-bd hover:bg-primary-btn-hover hover:text-primary-btn-text-hover hover:border-primary-btn-bd-hover;
+}
+
+.btn.btn-default {
+  @apply bg-default-btn text-default-btn-text border-default-btn-bd hover:bg-default-btn-hover hover:text-default-btn-text-hover hover:border-default-btn-bd-hover;
+}
+
+.btn.btn-danger {
+  @apply bg-danger-btn text-danger-btn-text border-danger-btn-bd hover:bg-danger-btn-hover hover:text-danger-btn-text-hover hover:border-danger-btn-bd-hover;
+}
+
+.btn.btn-link {
+  @apply bg-link-btn text-link-btn-text border-link-btn-bd shadow-none hover:bg-link-btn-hover hover:text-link-btn-text-hover hover:border-link-btn-bd-hover;
+}
+
+.btn.btn-text {
+  @apply bg-text-btn text-text-btn-text border-text-btn-bd shadow-none hover:bg-text-btn-hover hover:text-text-btn-text-hover hover:border-text-btn-bd-hover;
+}
+
+.btn.ghost {
+  @apply bg-ghost-btn text-ghost-btn-text border-ghost-btn-bd shadow-none hover:bg-ghost-btn-hover hover:text-ghost-btn-text-hover hover:border-ghost-btn-bd-hover;
+}
+
+.btn.disabled {
+  @apply bg-disabled-btn text-disabled-btn-text border-disabled-btn-bd hover:bg-disabled-btn-hover cursor-not-allowed hover:text-disabled-btn-text-hover hover:border-disabled-btn-bd-hover;
+}
+
+.menu {
+  @apply flex flex-wrap w-full;
+}
+
+.menu-horizontal {
+  @apply flex-row pl-p50 border-b border-gray-200;
+}
+
+.menu-horizontal .menu-item {
+  @apply px-p20 py-0 mx-p20 h-p50 leading-p50 cursor-pointer select-none whitespace-nowrap text-p14 hover:text-menu-item-active-text hover:border-b-2;
+}
+
+.menu-horizontal .menu-item.is-active {
+  @apply text-menu-item-active-text border-b-2;
+}
+
+.menu-horizontal .menu-item.is-disabled {
+  @apply cursor-not-allowed text-gray-300 border-0 border-transparent;
+}
+
+.menu-vertical {
+  @apply flex-col w-p240 border-r border-gray-200;
+}
+.menu-vertical .menu-item {
+  @apply px-p20 py-0 h-p40 leading-p40 cursor-pointer select-none whitespace-nowrap text-p14 hover:text-menu-item-active-text hover:border-menu-item-active-text hover:border-r-2;
+}
+
+.menu-vertical .menu-item.is-active {
+  @apply text-menu-item-active-text border-r-2 border-menu-item-active-text;
+}
+
+.menu-vertical .menu-item.is-disabled {
+  @apply cursor-not-allowed text-gray-300 border-0 border-transparent;
+}

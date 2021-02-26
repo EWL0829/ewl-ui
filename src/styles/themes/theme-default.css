@@ -1,0 +1,79 @@
+.theme-default {
+  --white:    #fff;
+  --gray-100: #f8f9fa;
+  --gray-200: #e9ecef;
+  --gray-300: #dee2e6;
+  --gray-400: #ced4da;
+  --gray-500: #adb5bd;
+  --gray-600: #6c757d;
+  --gray-700: #495057;
+  --gray-800: #343a40;
+  --gray-900: #212529;
+  --black:    #000;
+
+  --dust-Red: #ffa39e;
+  --volcano: #ffbb96;
+  --sunsetOrange: #ffd591;
+  --calendula-Gold: #ffe58f;
+  --sunrise-Yellow: #fffb8f;
+  --lime: #eaff8f;
+  --polar-green: #b7eb8f;
+  --cyan: #87e8de;
+  --daybreak-blue: #91d5ff;
+  --geek-blue: #adc6ff;
+  --golden-purple: #d3adf7;
+  --magenta: #ffadd2;
+
+  /* 按钮背景色 */
+  --default-btn: #ffffff;
+  --primary-btn: #1890ff;
+  --ghost-btn: transparent;
+  --link-btn: transparent;
+  --text-btn: transparent;
+  --danger-btn: #f5222d;
+  --disabled-btn: #d9d9d9;
+
+  --default-btn-text: #8c8c8c;
+  --primary-btn-text: #ffffff;
+  --ghost-btn-text: #d9d9d9;
+  --link-btn-text: #409EFF;
+  --text-btn-text: #69c0ff;
+  --danger-btn-text: #ffffff;
+  --disabled-btn-text: #ffffff;
+
+  --default-btn-bd: #d9d9d9;
+  --primary-btn-bd: transparent;
+  --ghost-btn-bd: transparent;
+  --link-btn-bd: transparent;
+  --text-btn-bd: transparent;
+  --danger-btn-bd: transparent;
+  --disabled-btn-bd: transparent;
+
+  --default-btn-hover: #e6f7ff;
+  --primary-btn-hover: #40a9ff;
+  --ghost-btn-hover: transparent;
+  --link-btn-hover: transparent;
+  --text-btn-hover: transparent;
+  --danger-btn-hover: #f33640;
+  --disabled-btn-hover: #d9d9d9;
+
+  --default-btn-text-hover: #1890ff;
+  --primary-btn-text-hover: #ffffff;
+  --ghost-btn-text-hover: #ffffff;
+  --link-btn-text-hover: #adc6ff;
+  --text-btn-text-hover: #91d5ff;
+  --danger-btn-text-hover: #ffffff;
+  --disabled-btn-text-hover: #ffffff;
+
+  --default-btn-bd-hover: #69c0ff;
+  --primary-btn-bd-hover: transparent;
+  --ghost-btn-bd-hover: transparent;
+  --link-btn-bd-hover: transparent;
+  --text-btn-bd-hover: transparent;
+  --danger-btn-bd-hover: transparent;
+  --disabled-btn-bd-hover: transparent;
+
+
+  --menu-item-text: #303133;
+  --menu-item-active-text: #409eff;
+}
